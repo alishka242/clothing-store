@@ -1,0 +1,393 @@
+@font-face {
+    font-family: 'fontAwesome';
+    src: url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+        url('../fonts/fontawesome-webfont.woff') format('woff'),
+        url('../fonts/fontawesome-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+;
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+;
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.conteiner {
+    margin: 0 auto;
+    width: 1145px;
+}
+
+.main {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 51px;
+    width: 165px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo span {
+    font-size: 27px;
+    color: #222222;
+    display: inline-block;
+}
+
+.logo .logo-text_color {
+    font-weight: 700;
+    color: #f16d7f;
+}
+
+.browse,
+.search input,
+.search_loupe {
+    border: none;
+}
+
+.search {
+    height: 38px;
+    border-radius: 3px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+}
+
+.browse {
+    font-weight: 300;
+    color: #222222;
+    line-height: 32px;
+    height: 38px;
+    width: 87px;
+    padding: 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+.browse:active {
+    background-color: #f7f7f7;
+}
+
+.browse:hover {
+    background-color: #a4a4a4;
+}
+
+.search input {
+    width: 265px;
+    height: 38px;
+    padding: 0px 0px 0px 15px;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+
+.search_loupe {
+    width: 36px;
+    height: 38px;
+    padding: 0px;
+    color: #a4a4a4;
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+
+.search_loupe:active {
+    background-color: #f7f7f7;
+}
+
+.search_loupe:hover {
+    background-color: #a4a4a4;
+}
+
+.search_loupe:hover i {
+    color: #e6e6e6;
+}
+
+.main-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 605px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 188px;
+}
+
+.basket i {
+    font-size: 34px;
+    color: #222222;
+}
+
+.basket i:hover {
+    cursor: pointer;
+    color: #a4a4a4;
+}
+
+.my_account {
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my_account:hover {
+    cursor: pointer;
+    background-color: #a4a4a4;
+}
+
+/*MENU*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+}
+
+.menu a {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px 21px;
+}
+
+.menu a:hover {
+    color: #e6e6e6;
+}
+
+/*THE-BRAND*/
+.conteiner_color {
+    background-color: #e8e8e8;
+}
+
+.the-brand {
+    height: 613px;
+    background-image: url('/img/2_the-brand/the-brand.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.color-line {
+    width: 12px;
+    height: 95px;
+    background-color: #f16d7f;
+    margin-right: 12px;
+}
+
+.brand-text {
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -24px;
+}
+
+.brand-text h1 {
+    color: #222222;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.brand-text h2 {
+    font-size: 40px;
+}
+
+.brand-h2_color {
+    color: #f16d7f;
+}
+
+/*FOR*/
+.for {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 1020px;
+}
+
+.for-left {
+    height: 823px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.for-men {
+    background-image: url('/img/3_for/for-men.jpg');
+    background-repeat: no-repeat;
+    width: 560px;
+    height: 542px;
+}
+
+.accesories {
+    background-image: url('/img/3_for/accesories.jpg');
+    background-repeat: no-repeat;
+    background-color: #dadad2;
+    background-position: top right;
+    width: 560px;
+    height: 261px;
+}
+
+.for-right {
+    height: 823px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.for-women {
+    background-image: url('/img/3_for/for-women.jpg');
+    background-repeat: no-repeat;
+    width: 560px;
+    height: 261px;
+}
+
+.for-kids {
+    background-image: url('/img/3_for/for-kids.jpg');
+    background-repeat: no-repeat;
+    width: 560px;
+    height: 542px;
+}
+
+.for a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 82px;
+    background-color: #ffffff;
+    font-weight: 700;
+    margin-top: 26px;
+}
+
+.for_center {
+    text-align: left;
+}
+
+.for_white-box {
+    display: block;
+    text-transform: uppercase;
+    color: #222222;
+    font-size: 18px;
+}
+
+.for_color-text {
+    display: block;
+    text-transform: uppercase;
+
+    color: #f16d7f;
+    font-size: 29px;
+}
+
+.accesories a {
+    width: 225px;
+}
+
+/*FETURED-ITEMS*/
+.fetured-items-conteuner {
+    display: flex;
+    flex-direction: column;
+}
+
+.fetured-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 51px;
+    margin-bottom: 60px;
+}
+
+.fetured-items h3 {
+    color: #222222;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fetured-items p {
+    color: #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ftr-product {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.clothes a{
+    height: 342px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.clothes img {
+    display: block;
+    z-index: 0;
+    width: 261px;
+    height: 279px;
+}
+
+.ftr-name {
+    color: #222222;
+    font-size: 13px;
+}
+
+.ftr-price {
+    color: #f16d7f;
+    font-size: 16px;
+}
