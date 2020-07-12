@@ -365,14 +365,21 @@ a {
     margin-bottom: 80px;
 }
 
-.clothes a{
-    height: 342px;
+.clothes:hover .ftr-product_hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clothes a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 342px;
+    width: 263px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .clothes img {
@@ -390,4 +397,106 @@ a {
 .ftr-price {
     color: #f16d7f;
     font-size: 16px;
+}
+
+.ftr-product_hover {
+    position: absolute;
+    display: none;
+    width: 263px;
+    height: 281px;
+    background-color: #3a3838;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.ftr-product_hover p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 123px;
+    height: 37px;
+    border: 1px solid #ffffff;
+    text-transform: lowercase;
+}
+
+.all-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 113px;
+}
+
+.all-products a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 212px;
+    height: 48px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*SALE*/
+.sale {
+    display: flex;
+    flex-direction: row;
+    background-color: #222224;
+    height: 529px;
+}
+
+.sale-left {
+    background-image: url('/img/5_sale/sale.jpg');
+    background-repeat: no-repeat;
+    width: 727px;
+    height: 529px;
+    color: #ffffff;
+    padding-top: 146px;
+    padding-left: 40px;
+}
+
+.sale-left h2 {
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sale-left_color{
+    color: #f16d7f;
+}
+
+.sale-left h3{
+    font-size: 32px;
+}
+
+.sale-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sale-plus{
+    display: flex;
+    flex-direction: row;
+}
+
+.sale-plus img{
+    height: 35px;
+    text-align: center;
+}
+
+.sale-plus-text{
+    width: 220px;
+}
+
+.sale-plus-text h4{
+
+}
+
+.sale-plus-text h3{
+
 }
