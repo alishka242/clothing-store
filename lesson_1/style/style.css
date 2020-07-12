@@ -209,7 +209,7 @@ a {
 
 .the-brand {
     height: 613px;
-    background-image: url('/img/2_the-brand/the-brand.jpg');
+    background-image: url('/lesson_1/img/2_the-brand/the-brand.jpg');
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
@@ -263,14 +263,14 @@ a {
 }
 
 .for-men {
-    background-image: url('/img/3_for/for-men.jpg');
+    background-image: url('/lesson_1/img/3_for/for-men.jpg');
     background-repeat: no-repeat;
     width: 560px;
     height: 542px;
 }
 
 .accesories {
-    background-image: url('/img/3_for/accesories.jpg');
+    background-image: url('/lesson_1/img/3_for/accesories.jpg');
     background-repeat: no-repeat;
     background-color: #dadad2;
     background-position: top right;
@@ -286,14 +286,14 @@ a {
 }
 
 .for-women {
-    background-image: url('/img/3_for/for-women.jpg');
+    background-image: url('/lesson_1/img/3_for/for-women.jpg');
     background-repeat: no-repeat;
     width: 560px;
     height: 261px;
 }
 
 .for-kids {
-    background-image: url('/img/3_for/for-kids.jpg');
+    background-image: url('/lesson_1/img/3_for/for-kids.jpg');
     background-repeat: no-repeat;
     width: 560px;
     height: 542px;
@@ -480,7 +480,7 @@ a {
 }
 
 .sale-left {
-    background-image: url('/img/5_sale/sale.jpg');
+    background-image: url('/lesson_1/img/5_sale/sale.jpg');
     background-repeat: no-repeat;
     width: 727px;
     height: 383px;
@@ -560,7 +560,7 @@ a {
 
 /*SUBSCRIBE*/
 .subscribe {
-    background-image: url(/img/6_subscribe/subscribe.jpg);
+    background-image: url('/lesson_1/img/6_subscribe/subscribe.jpg');
     background-repeat: no-repeat;
     height: 438px;
     margin: 0 auto;
