@@ -311,6 +311,10 @@ a {
     margin-top: 26px;
 }
 
+.for a:hover{
+    background-color: #d6d6d6;
+}
+
 .for_center {
     text-align: left;
 }
@@ -367,21 +371,35 @@ a {
     margin-bottom: 80px;
 }
 
+.clothes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
 .clothes:hover .ftr-product_hover {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.clothes:hover .clothers-p{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
 .clothes a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 342px;
+    height: 279px;
     width: 263px;
-    font-weight: 700;
     text-transform: uppercase;
-    margin-top: 40px;
+}
+
+.clothes p{
+    font-weight: 700;
+    margin-bottom: 20px;margin-left: 15px;
 }
 
 .clothes img {
@@ -394,6 +412,7 @@ a {
 .ftr-name {
     color: #222222;
     font-size: 13px;
+    margin-top: 19px;
 }
 
 .ftr-price {
@@ -421,6 +440,11 @@ a {
     height: 37px;
     border: 1px solid #ffffff;
     text-transform: lowercase;
+}
+
+.ftr-product_hover p:hover{
+    background-color: rgb(255, 164, 164);
+    color: #3e3e40;
 }
 
 .all-products {
@@ -736,11 +760,15 @@ footer {
     height: 79px;
 }
 
-.footer p {
+.footer p a{
     color: #7a7a7a;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.4px;
+}
+
+.footer p a:hover{
+    color: #3e3e40;
 }
 
 .footer-link{
